@@ -1,0 +1,103 @@
+.myblogs {
+    width: 100% !important;
+    display: block !important;
+    margin: 30px auto;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 3% !important;
+    /* margin-left: 30% !important; */
+}
+
+.myblogs_div {
+    /* position: sticky; */
+    overflow: hidden;
+    /* top: 50%; */
+
+    width: 1000px;
+    margin: auto !important;
+
+   margin-left: 15% !important;
+    margin-top: 20px;
+}
+
+.heading_my_blog {
+
+    font-size: 40px;
+    margin: auto;
+   
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* edit blog btn  */
+.delete {
+    background: linear-gradient(to right, #942e1c, #942e1c, #701c0d) !important;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #369b5d, #1c5f36);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+}
+
+.edit svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.edit span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.edit:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+.edit:hover span {
+    transform: translateX(7px);
+}
+
+
+
+/*  */
+.referral-heading-container {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    
+    margin: auto !important;
+    /* margin-left: 30% !important; */
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.thin-line-left {
+    flex: 1;
+    height: 1.0px;
+    background: linear-gradient(to right, transparent, hsl(2, 98%, 60%)) !important;
+    /* Adjust gradient colors as needed */
+}
+
+.thin-line-right {
+    flex: 1;
+    height: 1.0px;
+    background: linear-gradient(to left, transparent, hsl(2, 98%, 60%));
+    /* Adjust gradient colors as needed */
+}
+
+.referral-heading {
+    margin: 0 20px;
+    font-family: PoppinsBold;
+}
